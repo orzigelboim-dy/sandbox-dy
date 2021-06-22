@@ -1,215 +1,228 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
- <head>
- 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<title>Dynamic Yield Playground</title>
-	<meta name="description" content="Edit and experiment with the Dynamic Yield admin">
-	
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
- <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
- <head>
- 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-	<title>Dynamic Yield Playground</title>
-	<meta name="description" content="Edit and experiment with the Dynamic Yield admin">
-	<link rel="stylesheet" href="./style.css">
-	<link rel="shortcut icon" href="#" />
-	<meta property="og:image" content="#" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>Dynamic Yield Playground</title>
+    <meta name="description" content="Edit and experiment with the Dynamic Yield admin">
 
-	<link rel="preconnect" href="//cdn.dynamicyield.com">
-	<link rel="preconnect" href="//st.dynamicyield.com">
-	<link rel="preconnect" href="//rcom.dynamicyield.com">
-	<link rel="dns-prefetch" href="//cdn.dynamicyield.com">
-	<link rel="dns-prefetch" href="//st.dynamicyield.com">
-	<link rel="dns-prefetch" href="//rcom.dynamicyield.com">
-	<script type="text/javascript" src="//cdn.dynamicyield.com/api/8777206/api_dynamic.js"></script>
-	<script type="text/javascript" src="//cdn.dynamicyield.com/api/8777206/api_static.js"></script>
-</head>
+    <!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+        <title>Dynamic Yield Playground</title>
+        <meta name="description" content="Edit and experiment with the Dynamic Yield admin">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="shortcut icon" href="#" />
+        <meta property="og:image" content="#" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <link rel="preconnect" href="//cdn.dynamicyield.com">
+        <link rel="preconnect" href="//st.dynamicyield.com">
+        <link rel="preconnect" href="//rcom.dynamicyield.com">
+        <link rel="dns-prefetch" href="//cdn.dynamicyield.com">
+        <link rel="dns-prefetch" href="//st.dynamicyield.com">
+        <link rel="dns-prefetch" href="//rcom.dynamicyield.com">
+        <script type="text/javascript" src="//cdn.dynamicyield.com/api/8777206/api_dynamic.js"></script>
+        <script type="text/javascript" src="//cdn.dynamicyield.com/api/8777206/api_static.js"></script>
+    </head>
+
 <body>
-<!-- TITLE -->
-	<header>
-		<h1>Dynamic Yield Playground</h1>
-	</header>
+    <!-- TITLE -->
+    <header>
+        <h1>Dynamic Yield Playground</h1>
+    </header>
 
-<!-- SLIDER -->
-	<h2>Slider</h2>
-	<p>This slider is optimized for highest conversion. That means that instead of you choosing which
+    <!-- SLIDER -->
+    <h2>Slider</h2>
+    <p>This slider is optimized for highest conversion. That means that instead of you choosing which
 
-promotions to display and in which order, Dynamic Yield’s optimization engine chooses the best
+        promotions to display and in which order, Dynamic Yield’s optimization engine chooses the best
 
-options for each user. We uploaded five promotion options that can be used in this slider, but
+        options for each user. We uploaded five promotion options that can be used in this slider, but
 
-Dynamic Yield is only showing the best three for you.</p><br/>
-	<p>To edit this slider, click the ‘Edit Slider’ button below and look for ‘Main Slider’ on the page that
+        Dynamic Yield is only showing the best three for you.</p><br />
+    <p>To edit this slider, click the ‘Edit Slider’ button below and look for ‘Main Slider’ on the page that
 
-opens.</p>
+        opens.</p>
 
-	<!-- Add Main Slider Object here -->
-	<div id="dy_Main_Slider"></div>
-<script type="text/javascript">
-  DYO.smartObject("Main Slider", {
-    target: "dy_Main_Slider",
-    inline: true
-  });
-</script>
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_MAIN_SLIDER_ID_HERE/edit" target="_blank">Edit Slider</a></div>
-<!-- END of SLIDER -->
+    <!-- Add Main Slider Object here -->
+    <div id="dy_Main_Slider"></div>
+    <script type="text/javascript">
+        DYO.smartObject("Main Slider", {
+            target: "dy_Main_Slider",
+            inline: true
+        });
+    </script>
+    <!-- END of SLIDER -->
 
-<!-- FEATURES -->
-	<h2>Features</h2>
-	<p>This is our product features list. We have more than three features we’d love to share with you, but
+    <!-- FEATURES -->
+    <h2>Features</h2>
+    <p>This is our product features list. We have more than three features we’d love to share with you, but
 
-this page has limited real estate. So our engine chooses the best three to show each user.</p>
+        this page has limited real estate. So our engine chooses the best three to show each user.</p>
 
-<!-- Add Features Object here -->
+    <!-- Add Features Object here -->
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_FEATURE_OBJECT_ID_HERE/edit" target="_blank">Edit Features</a></div>
-<!-- END of FEATURES -->
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_FEATURE_OBJECT_ID_HERE/edit"
+            target="_blank">Edit Features</a></div>
+    <!-- END of FEATURES -->
 
-<!-- SINGLE OBJECT -->
-	<h2>Personalized Content</h2>
-	<p>This message is another example of content personalization. The message changes according
+    <!-- SINGLE OBJECT -->
+    <h2>Personalized Content</h2>
+    <p>This message is another example of content personalization. The message changes according
 
-to the user’s device. You can also set personalized content based on location, time of day, past
+        to the user’s device. You can also set personalized content based on location, time of day, past
 
-browsing behavior on your website and many other parameters.</p>
+        browsing behavior on your website and many other parameters.</p>
 
-<!-- Add Section Device Object here -->
+    <!-- Add Section Device Object here -->
 
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_SECTION_DEVICE_OBJECT_ID_HERE/edit" target="_blank">Edit Content</a></div>
-<!-- END of SINGLE OBJECT -->
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_SECTION_DEVICE_OBJECT_ID_HERE/edit"
+            target="_blank">Edit Content</a></div>
+    <!-- END of SINGLE OBJECT -->
 
-<!-- TEMPLATES -->
-	<h2>Templates</h2>
-	<p>Templates let you easily create landing page and banner variations without writing a single line of
+    <!-- TEMPLATES -->
+    <h2>Templates</h2>
+    <p>Templates let you easily create landing page and banner variations without writing a single line of
 
-code.</p>
+        code.</p>
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/templates" target="_blank">Edit Templates</a></div>
+    <div class="edit"><a href="https://adm.dynamicyield.com/templates" target="_blank">Edit Templates</a></div>
 
-<!-- END of TEMPLATES -->
+    <!-- END of TEMPLATES -->
 
-<!-- DYNAMIC LINK -->
-	<h2>And one more thing - Dynamic Links!</h2>
-	<p>Dynamic Links let you optimize the target URL of any link. They’re great for ads, when you don't
+    <!-- DYNAMIC LINK -->
+    <h2>And one more thing - Dynamic Links!</h2>
+    <p>Dynamic Links let you optimize the target URL of any link. They’re great for ads, when you don't
 
-know where exactly to direct your traffic - to the homepage or to the category page? To a category
+        know where exactly to direct your traffic - to the homepage or to the category page? To a category
 
-page sorted by lowest price first, or highest price first? With Dynamic Links, you can choose as many
+        page sorted by lowest price first, or highest price first? With Dynamic Links, you can choose as many
 
-target URL options as you wish and know that your traffic is automatically directed to the best one.
+        target URL options as you wish and know that your traffic is automatically directed to the best one.
 
-Conversion data for each target URL is available to you in real time.</p><br/>
-<p>Here is a Dynamic Link example. We are experimenting with two target URLs, one is our homepage
+        Conversion data for each target URL is available to you in real time.</p><br />
+    <p>Here is a Dynamic Link example. We are experimenting with two target URLs, one is our homepage
 
-and one is our blog (which you should read btw).</p>
-<p> Click the link and see where it gets you.</p>
+        and one is our blog (which you should read btw).</p>
+    <p> Click the link and see where it gets you.</p>
 
-	<div id="smartlink_icon"></div>
-	<a href="ADD YOUR DYNAMIC LINK CODE HERE" target="_blank">ADD YOUR DYNAMIC LINK CODE HERE</a>
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_links/ADD_YOUR_DYNAMIC_LINK_ID_HERE/edit" target="_blank" style="margin-top: 40px;">Edit Dynamic Link</a></div>
-<!-- END of DYNAMIC LINK -->
+    <div id="smartlink_icon"></div>
+    <a href="ADD YOUR DYNAMIC LINK CODE HERE" target="_blank">ADD YOUR DYNAMIC LINK CODE HERE</a>
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_links/ADD_YOUR_DYNAMIC_LINK_ID_HERE/edit"
+            target="_blank" style="margin-top: 40px;">Edit Dynamic Link</a></div>
+    <!-- END of DYNAMIC LINK -->
 
-<!-- CONTACT -->
-	<footer>
-		<h3>Questions? Comments? Want to know more?
+    <!-- CONTACT -->
+    <footer>
+        <h3>Questions? Comments? Want to know more?
 
-Don’t hesitate to <a href="http://www.dynamicyield.com/contact/" target="_blank">contact us!</a></h3>
-	</footer>
+            Don’t hesitate to <a href="http://www.dynamicyield.com/contact/" target="_blank">contact us!</a></h3>
+    </footer>
 </body>
+
 </html>
 
-	<link rel="shortcut icon" href="#" />
-	<meta property="og:image" content="#" />
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="#" />
+<meta property="og:image" content="#" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
+
 <body>
-<!-- TITLE -->
-	<header>
-		<h1>Dynamic Yield Playground</h1>
-	</header>
+    <!-- TITLE -->
+    <header>
+        <h1>Dynamic Yield Playground</h1>
+    </header>
 
-<!-- SLIDER -->
-	<h2>Slider</h2>
-	<p>This slider is optimized for highest conversion. That means that instead of you choosing which
+    <!-- SLIDER -->
+    <h2>Slider</h2>
+    <p>This slider is optimized for highest conversion. That means that instead of you choosing which
 
-promotions to display and in which order, Dynamic Yield’s optimization engine chooses the best
+        promotions to display and in which order, Dynamic Yield’s optimization engine chooses the best
 
-options for each user. We uploaded five promotion options that can be used in this slider, but
+        options for each user. We uploaded five promotion options that can be used in this slider, but
 
-Dynamic Yield is only showing the best three for you.</p><br/>
-	<p>To edit this slider, click the ‘Edit Slider’ button below and look for ‘Main Slider’ on the page that
+        Dynamic Yield is only showing the best three for you.</p><br />
+    <p>To edit this slider, click the ‘Edit Slider’ button below and look for ‘Main Slider’ on the page that
 
-opens.</p>
+        opens.</p>
 
-	<!-- Add Main Slider Object here -->
+    <!-- Add Main Slider Object here -->
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_MAIN_SLIDER_ID_HERE/edit" target="_blank">Edit Slider</a></div>
-<!-- END of SLIDER -->
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_MAIN_SLIDER_ID_HERE/edit"
+            target="_blank">Edit Slider</a></div>
+    <!-- END of SLIDER -->
 
-<!-- FEATURES -->
-	<h2>Features</h2>
-	<p>This is our product features list. We have more than three features we’d love to share with you, but
+    <!-- FEATURES -->
+    <h2>Features</h2>
+    <p>This is our product features list. We have more than three features we’d love to share with you, but
 
-this page has limited real estate. So our engine chooses the best three to show each user.</p>
+        this page has limited real estate. So our engine chooses the best three to show each user.</p>
 
-<!-- Add Features Object here -->
+    <!-- Add Features Object here -->
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_FEATURE_OBJECT_ID_HERE/edit" target="_blank">Edit Features</a></div>
-<!-- END of FEATURES -->
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_FEATURE_OBJECT_ID_HERE/edit"
+            target="_blank">Edit Features</a></div>
+    <!-- END of FEATURES -->
 
-<!-- SINGLE OBJECT -->
-	<h2>Personalized Content</h2>
-	<p>This message is another example of content personalization. The message changes according
+    <!-- SINGLE OBJECT -->
+    <h2>Personalized Content</h2>
+    <p>This message is another example of content personalization. The message changes according
 
-to the user’s device. You can also set personalized content based on location, time of day, past
+        to the user’s device. You can also set personalized content based on location, time of day, past
 
-browsing behavior on your website and many other parameters.</p>
+        browsing behavior on your website and many other parameters.</p>
 
-<!-- Add Section Device Object here -->
+    <!-- Add Section Device Object here -->
 
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_SECTION_DEVICE_OBJECT_ID_HERE/edit" target="_blank">Edit Content</a></div>
-<!-- END of SINGLE OBJECT -->
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_tags/YOUR_SECTION_DEVICE_OBJECT_ID_HERE/edit"
+            target="_blank">Edit Content</a></div>
+    <!-- END of SINGLE OBJECT -->
 
-<!-- TEMPLATES -->
-	<h2>Templates</h2>
-	<p>Templates let you easily create landing page and banner variations without writing a single line of
+    <!-- TEMPLATES -->
+    <h2>Templates</h2>
+    <p>Templates let you easily create landing page and banner variations without writing a single line of
 
-code.</p>
+        code.</p>
 
-	<div class="edit"><a href="https://adm.dynamicyield.com/templates" target="_blank">Edit Templates</a></div>
+    <div class="edit"><a href="https://adm.dynamicyield.com/templates" target="_blank">Edit Templates</a></div>
 
-<!-- END of TEMPLATES -->
+    <!-- END of TEMPLATES -->
 
-<!-- DYNAMIC LINK -->
-	<h2>And one more thing - Dynamic Links!</h2>
-	<p>Dynamic Links let you optimize the target URL of any link. They’re great for ads, when you don't
+    <!-- DYNAMIC LINK -->
+    <h2>And one more thing - Dynamic Links!</h2>
+    <p>Dynamic Links let you optimize the target URL of any link. They’re great for ads, when you don't
 
-know where exactly to direct your traffic - to the homepage or to the category page? To a category
+        know where exactly to direct your traffic - to the homepage or to the category page? To a category
 
-page sorted by lowest price first, or highest price first? With Dynamic Links, you can choose as many
+        page sorted by lowest price first, or highest price first? With Dynamic Links, you can choose as many
 
-target URL options as you wish and know that your traffic is automatically directed to the best one.
+        target URL options as you wish and know that your traffic is automatically directed to the best one.
 
-Conversion data for each target URL is available to you in real time.</p><br/>
-<p>Here is a Dynamic Link example. We are experimenting with two target URLs, one is our homepage
+        Conversion data for each target URL is available to you in real time.</p><br />
+    <p>Here is a Dynamic Link example. We are experimenting with two target URLs, one is our homepage
 
-and one is our blog (which you should read btw).</p>
-<p> Click the link and see where it gets you.</p>
+        and one is our blog (which you should read btw).</p>
+    <p> Click the link and see where it gets you.</p>
 
-	<div id="smartlink_icon"></div>
-	<a href="ADD YOUR DYNAMIC LINK CODE HERE" target="_blank">ADD YOUR DYNAMIC LINK CODE HERE</a>
-	<div class="edit"><a href="https://adm.dynamicyield.com/smart_links/ADD_YOUR_DYNAMIC_LINK_ID_HERE/edit" target="_blank" style="margin-top: 40px;">Edit Dynamic Link</a></div>
-<!-- END of DYNAMIC LINK -->
+    <div id="smartlink_icon"></div>
+    <a href="ADD YOUR DYNAMIC LINK CODE HERE" target="_blank">ADD YOUR DYNAMIC LINK CODE HERE</a>
+    <div class="edit"><a href="https://adm.dynamicyield.com/smart_links/ADD_YOUR_DYNAMIC_LINK_ID_HERE/edit"
+            target="_blank" style="margin-top: 40px;">Edit Dynamic Link</a></div>
+    <!-- END of DYNAMIC LINK -->
 
-<!-- CONTACT -->
-	<footer>
-		<h3>Questions? Comments? Want to know more?
+    <!-- CONTACT -->
+    <footer>
+        <h3>Questions? Comments? Want to know more?
 
-Don’t hesitate to <a href="http://www.dynamicyield.com/contact/" target="_blank">contact us!</a></h3>
-	</footer>
+            Don’t hesitate to <a href="http://www.dynamicyield.com/contact/" target="_blank">contact us!</a></h3>
+    </footer>
 </body>
+
 </html>
